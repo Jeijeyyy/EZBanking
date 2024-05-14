@@ -28,13 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnONE = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnONE
+            // 
+            this.btnONE.Location = new System.Drawing.Point(319, 247);
+            this.btnONE.Name = "btnONE";
+            this.btnONE.Size = new System.Drawing.Size(57, 23);
+            this.btnONE.TabIndex = 0;
+            this.btnONE.Text = "Shish";
+            this.btnONE.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(410, 282);
+            this.Controls.Add(this.btnONE);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnONE;
     }
 }
 
